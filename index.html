@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GESTOR TAREAS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1>GESTOR TAREAS</h1>
+    </header>
+
+    <main>
+        <section class="add-task">
+            <form id="todo-form">
+                <input type="text" id="task-input" placeholder="Nueva tarea..." required>
+                <button type="submit">Añadir</button>
+            </form>
+        </section>
+
+        <section class="tasks">
+            <ul id="task-list"></ul>
+            <button id="clear-all">Borrar todo</button>
+        </section>
+    </main>
+
+    <ul id="lista-tareas">
+        <li>Tarea ejemplo 1</li>
+        <li>Tarea ejemplo 2</li>
+        <li>Tarea ejemplo 3</li>
+    </ul>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
