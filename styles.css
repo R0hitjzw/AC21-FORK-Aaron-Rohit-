@@ -147,8 +147,52 @@ button:hover {
     margin-top: 10px;
   }
 }
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 0.8rem;
+    margin: 10px 0;
+  }
+  
+  input {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  
+  button {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  
+  #todo-form button {
+    width: 100%;
+  }
+  
+  #task-list li {
+    padding: 10px;
+    font-size: 0.8rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  #task-list li button {
+    width: 100%;
+    margin-top: 8px;
+    font-size: 0.7rem;
+  }
+  
+  #lista-tareas {
+    padding: 0 10px;
+    font-size: 0.8rem;
+  }
 
-
+}
 
  
 
